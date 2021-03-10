@@ -13,8 +13,8 @@ class person:
         print('Gender:',self.gender)
 
 class coder(person):
-    skills = None
     def add_skill(self, skill):
+    skills = None
         if(self.skills==None):
             self.skills = [skill]
         else:
